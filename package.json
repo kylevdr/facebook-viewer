@@ -1,0 +1,25 @@
+{
+  "name": "facebook-viewer",
+  "version": "1.0.0",
+  "description": "Facebook viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylevdr/facebook-viewer.git"
+  },
+  "author": "Kyle VanDeRiet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylevdr/facebook-viewer/issues"
+  },
+  "homepage": "https://github.com/kylevdr/facebook-viewer#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  }
+}
